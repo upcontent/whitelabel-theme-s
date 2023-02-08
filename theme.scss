@@ -21,8 +21,8 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black:    #000;
 
-$primary:       $blue;
-$secondary:     $gray-600;
+$primary:       $blue; // This should be a dark/vibrant color not light. Light colors will work poorly
+$secondary:     $gray-600; // This should be a dark/vibrant color not light. Light colors will work poorly
 $success:       $green;
 $info:          $cyan;
 $warning:       $yellow;
