@@ -1,0 +1,13 @@
+{
+  "name": "bs-theme",
+  "scripts": {
+    "build": "sass theme.scss theme.css"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.58.0"
+  }
+}

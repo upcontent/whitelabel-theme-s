@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="theme.css">
+    <title>Title</title>
+</head>
+<body >
+<nav class="navbar bg-primary text-light">
+    <div class="container d-flex justify-content-between">
+        <h1 class="">My Logo</h1>
+        <div>
+            <div class="dropdown-toggle">My Account</div>
+            <div class="dropdown-menu">
+                <h2 class="text-primary">Section</h2>
+                <ul>
+                    <li>
+                        Item
+                    </li>
+                    <li>
+                        Item
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <div class="pt-3">
+        <a href="https://example.com" class="link-primary">Link to example.com</a>
+        <form class="mt-3 row">
+            <h3 class="col col-12">Header 3</h3>
+            <div class="col col-12 col-md-6">
+                <label class="d-block mb-2 form-label">
+                    Test
+                    <input type="text" class="form-control">
+                </label>
+                <label class="d-block mb-2 form-label">
+                    Test
+                    <input type="number" class="form-control">
+                </label>
+                <label class="d-block mb-2 form-label">
+                    Test
+                    <input type="date" class="form-control">
+                </label>
+                <label class="d-block mb-2 form-label">
+                    Test
+                    <select class="form-control">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                </label>
+            </div>
+            <div class="col col-12 col-md-6">
+                <fieldset class="mb-2">
+                    <legend class="form-label">Radios</legend>
+                    <label class="d-block form-check form-check-label">
+                        <input type="radio" name="test" class="form-check-input"> Option 1
+                    </label>
+                    <label class="d-block form-check form-check-label">
+                        Test
+                        <input type="radio" name="test" class="form-check-input">  Option 2
+                    </label>
+                </fieldset>
+                <fieldset class="mb-2">
+                    <legend class="form-label">Checkboxes</legend>
+                    <label class="d-block form-check form-check-label">
+                        <input type="checkbox" name="test2" class="form-check-input"> Option 1
+                    </label>
+                    <label class="d-block form-check form-check-label">
+                        Test
+                        <input type="checkbox" name="test3" class="form-check-input">  Option 2
+                    </label>
+                </fieldset>
+            </div>
+            <div class="col col-12 col-md-6">
+                <div class="alert alert-danger">
+                    Error Alert
+                </div>
+                <div class="alert alert-warning">
+                    Warning Alert
+                </div>
+            </div>
+            <div class="col col-12 col-md-6">
+                <div class="alert alert-info">
+                    Info Alert
+                </div>
+                <div class="alert alert-primary">
+                    Primary Alert
+                </div>
+            </div>
+            <div class="col col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-secondary">Cancel</button>
+            </div>
+        </form>
+        <section>
+            <h3 class="mt-3">Colors BG</h3>
+            <label class="d-block"><output class="swatch bg-primary"></output> Primary</label>
+            <label class="d-block"><output class="swatch bg-secondary"></output> Secondary</label>
+            <label class="d-block"><output class="swatch bg-info"></output> Info</label>
+            <label class="d-block"><output class="swatch bg-warning"></output> Warning</label>
+            <label class="d-block"><output class="swatch bg-danger"></output> Danger</label>
+            <label class="d-block"><output class="swatch bg-dark"></output> Dark</label>
+            <label class="d-block"><output class="swatch bg-black"></output> Black</label>
+            <label class="d-block"><output class="swatch bg-light border-dark border"></output> Light</label>
+            <label class="d-block"><output class="swatch bg-light border-dark border"></output> White</label>
+
+            <h3 class="mt-3">Colors Foreground</h3>
+            <label class="d-block text-primary">Primary</label>
+            <label class="d-block text-secondary">Secondary</label>
+            <label class="d-block text-info">Info</label>
+            <label class="d-block text-warning">Warning</label>
+            <label class="d-block text-danger">Danger</label>
+            <label class="d-block text-dark">Dark</label>
+            <label class="d-block text-black">Black</label>
+            <label class="d-block text-light bg-dark">Light</label>
+            <label class="d-block text-white bg-dark">White</label>
+        </section>
+    </div>
+</main>
+<style>
+    .swatch {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: center;
+    }
+</style>
+</body>
+</html>
