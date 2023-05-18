@@ -1,7 +1,7 @@
 # UpContent Theme Preview
 
 ## Installation
-After cloning run ensure you have yarn installed (`npm install yarn`). Then run
+After cloning run ensure you have yarn installed (`npm install -g yarn`). Then run
 ```shell
 yarn install
 ```
