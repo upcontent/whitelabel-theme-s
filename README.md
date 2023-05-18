@@ -21,3 +21,6 @@ yarn serve
 This is a pretty simple build chain so you'll need to re-run the serve command (or build command below) every time you make changes
 
 If you prefer to use a different web server such as your built in IDE web server you can instead simply run `yarn build`
+
+## Images
+You don't need to have your images sorted out for your first submission for a good preview but prior to going to go live if you want any images replaced with specific images please replace the images in the images folder as well.
