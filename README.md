@@ -1,5 +1,7 @@
 # UpContent Theme Preview
 
+To submit your whitelabel theme colors fork this repo and than modify the theme.scss appropriately. Once it is to your liking send us a link to the forked repo and we'll handle getting it into UpContent.
+
 ## Installation
 After cloning run ensure you have yarn installed (`npm install -g yarn`). Then run
 ```shell
